@@ -1,0 +1,82 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+}
+.app-root {
+  min-height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #052e1f;
+}
+
+.page-container {
+  max-width: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0a3622;
+  border: 1px solid #664d03;
+  border-radius: 10px;
+}
+
+.page-toggler {
+  display: flex;
+  width: 500px;
+  margin: 50px 0;
+  justify-content: space-between;
+  height: 40px;
+  margin-bottom: 80px;
+}
+
+.toggler-btn {
+  height: fit-content;
+  width: fit-content;
+  border: 1px solid #664d03;
+  color: #664d03;
+  font-size: 20px;
+  font-weight: bolder;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.active {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.developer-form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: 50px 0;
+  padding-top: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-title {
+  margin-bottom: 5px;
+}
+
+.team-stats {
+  margin: 15px 0;
+  padding: 10px 15px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+.team-stats strong {
+  color: #a3cfbb;
+}
+.task-instructions {
+  width: 100%;
+  max-width: 500px;
+}

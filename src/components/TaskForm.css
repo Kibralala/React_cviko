@@ -1,0 +1,46 @@
+.task-form {
+  display: flex;
+  flex-direction: column;
+  /* width: 400px; */
+  margin: 20px auto;
+  gap: 15px;
+  padding: 0.5rem;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* mezera mezi label a input */
+  width: 100%;
+}
+
+.input-group .label {
+  width: 200px;
+  text-align: left;
+}
+
+.task form .input {
+  background-color: #a3cfbb;
+  border: 1px solid #664d03;
+  padding: 0 10px;
+  font-weight: 500;
+  height: 40px;
+  width: 90%;
+  max-width: 300px;
+  border-radius: 5px;
+}
+
+.btn-ok {
+  background-color: #055e52;
+  border-color: #664d03;
+  margin: 1rem;
+}
+
+.btn-fail {
+  background-color: #7a131e;
+  color: black;
+  margin: 1rem;
+}

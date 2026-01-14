@@ -1,0 +1,44 @@
+.dev-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;
+  margin: 50px auto;
+  gap: 15px;
+  padding: 0.5rem;
+  justify-content: space-between;
+  align-items: center;
+}
+.name-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.name-group .label {
+  width: 80px;
+}
+
+.input {
+  background-color: #a3cfbb;
+  border: 1px solid #664d03;
+  color: #64766a;
+  padding: 0 15px;
+  font-weight: 500;
+  height: 40px;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 5px;
+}
+.radio-group {
+  background-color: transparent;
+}
+
+.btn-add {
+  background-color: #055e52;
+  color: white;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 5px;
+  border-color: #664d03;
+}
