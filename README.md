@@ -1,16 +1,43 @@
-# React + Vite
+# Project Planning App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application for managing a developer team and planning coding tasks based on team capacity.
 
-Currently, two official plugins are available:
+# Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project was created as a school assignment with a limited time scope (6 hours).  
+The goal was to build a React app that allows users to:
 
-## React Compiler
+- Manage a team of developers (junior / senior)
+- Calculate daily coding capacity based on team composition
+- Plan a project by entering required code lines and time limit
+- Automatically validate whether the project plan is feasible
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+If the plan is feasible, the action button becomes active and allows approval.  
+If not, the the action button remains red and disabled.
 
-## Expanding the ESLint configuration
+# Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JSX
+- CSS
+
+# Features
+
+- Add and remove developers from the team
+- Distinguish between junior and senior developers
+- Automatic calculation of daily coding capacity
+- Real-time validation of project feasibility
+- Input validation (positive numbers only)
+- Clean and responsive layout
+
+# Capacity Logic
+
+- Junior developer: **100 lines of code per day**
+- Senior developer: **200 lines of code per day**
+
+Total daily capacity is calculated dynamically based on the current team.
+
+# Author
+
+Hana Červenková
+January 2026
