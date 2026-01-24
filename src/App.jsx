@@ -20,10 +20,10 @@ function App() {
   }, 0);
 
   const numberOfJuniors = listOfDevelopers.filter(
-    (dev) => dev.level === "junior"
+    (dev) => dev.level === "junior",
   ).length;
   const numberOfSeniors = listOfDevelopers.filter(
-    (dev) => dev.level === "senior"
+    (dev) => dev.level === "senior",
   ).length;
 
   const handleDelete = (idToDel) => {
